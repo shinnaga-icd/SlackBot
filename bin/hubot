@@ -4,7 +4,7 @@ set -e
 
 npm install
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
-export HUBOT_SLACK_TOKEN=xoxb-2800943004631-2845917541267-6FfrhktNy70suW2HVs197rUp
+export HUBOT_SLACK_TOKEN=xoxb-XXXXXXX
 export HUBOT_SLACK_RTM_CLIENT_OPTS='{"useRtmConnect": "true"}'
 
 exec node_modules/.bin/hubot --name "NagaBot" "$@"
